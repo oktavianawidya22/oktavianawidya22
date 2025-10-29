@@ -10,6 +10,7 @@ I enjoy building **clean, fast, and scalable** web apps using
 ### 🧠 What I’m up to
 - 🚀 Building full-stack apps with Django + React  
 - ⚙️ Experimenting with FastAPI for fun backend projects  
+- 🌐 Integrating third-party APIs to make apps more powerful and connected  
 - 🎨 Exploring creative ways to mix logic with good design  
 
 ---
@@ -31,7 +32,7 @@ And maybe… break the internet (in a good way). 😜
 ### 📬 Let’s connect
 💼 [LinkedIn](#)  
 🌐 [Portfolio / Website](#)  
-🐍 [GitHub Projects](#)
+🐍 [GitHub Projects](https://github.com/oktavianawidya22?tab=repositories)
 
 > “Code with curiosity, not perfection — progress is the real art.”
 
