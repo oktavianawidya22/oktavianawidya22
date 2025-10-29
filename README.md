@@ -1,9 +1,10 @@
-# 👋 Hi, I'm Okta!
-
-A curious developer who loves turning ideas into code — and coffee into features ☕💻  
-
-I enjoy building **clean, fast, and scalable** web apps using  
-`Python • Django • FastAPI • React • JavaScript`
+<!-- Animated Header -->
+<h1 align="center">
+  Hey there 👋 I'm <span style="color:#6C63FF;">Okta</span>  
+</h1>
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Python+Django+%7C+FastAPI;React+Enthusiast;API+Integration+Lover;Code+%2B+Creativity+%3D+💜" alt="Typing SVG" />
+</h3>
 
 ---
 
@@ -41,6 +42,13 @@ I enjoy building **clean, fast, and scalable** web apps using
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oktavianawidya22&layout=compact&theme=tokyonight" alt="Top Languages"/>
+</p>
+
+---
+
+### 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/oktavianawidya22/oktavianawidya22/output/github-contribution-grid-snake.svg" alt="snake animation"/>
 </p>
 
 ---
