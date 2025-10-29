@@ -3,7 +3,7 @@
   Hey there 👋 I'm <span style="color:#6C63FF;">Okta</span>  
 </h1>
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Python+Django+%7C+FastAPI;React+Enthusiast;API+Integration+Lover;Code+%2B+Creativity+%3D+💜" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Python+Django+%7C+FastAPI;React+Enthusiast;API+Integration+Lover;Code+%2B+Creativity+%3D+💜" alt="Typing SVG" />
 </h3>
 
 ---
@@ -47,9 +47,12 @@
 ---
 
 ### 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/oktavianawidya22/oktavianawidya22/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oktavianawidya22/oktavianawidya22/main/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oktavianawidya22/oktavianawidya22/main/dist/github-contribution-grid-snake.svg" />
+  <img alt="github-contribution-snake" src="https://raw.githubusercontent.com/oktavianawidya22/oktavianawidya22/main/dist/github-contribution-grid-snake.svg" />
+</picture>
+
 
 ---
 

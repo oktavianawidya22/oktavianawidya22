@@ -1,9 +1,16 @@
 name: Generate snake animation
 
+# beri permission write supaya action bisa push file
+permissions:
+  contents: write
+
 on:
-  schedule:
-    - cron: "0 */12 * * *" # setiap 12 jam
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"   # sehari sekali, bisa kamu ubah
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -11,17 +18,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Generate snake.svg
-        uses: Platane/snk@v3
         with:
-          github_user_name: oktavianawidya22
-          outputs: dist/github-contribution-grid-snake.svg
+          fetch-depth: 0
 
-      - name: Push changes
+      - name: Generate snake.svg (svg-only)
+        # svg-only lebih cepat jika kamu cuma mau svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Show generated files
+        run: ls -la dist || true
+
+      - name: Commit generated svg (if any)
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "Generate snake animation"
-          add: "dist/github-contribution-grid-snake.svg"
+          add: "dist/**"
